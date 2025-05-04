@@ -2,49 +2,52 @@
 
 📌 Overview
 
-This project is a simple and effective web scraper built using Python and BeautifulSoup. It extracts specific information from a targeted website and presents it in a structured format as CSV or a database.
+This project is a Python-based web scraper built with BeautifulSoup. It scrapes book data (like title, price, availability, and rating) from the website Books to Scrape and saves the extracted information into a CSV file.
 
 🧰 Tools & Technologies
-
 Python 3.x
 
-BeautifulSoup (bs4)
+BeautifulSoup (bs4) – for parsing HTML
 
-Requests – for sending HTTP requests
+Requests – to fetch webpage content
 
-pandas – for data manipulation and export
+pandas – to structure and export data as CSV
 
-lxml or html.parser – parsing engines
+Visual Studio Code (VS Code) – as the development environment
 
 📂 Project Structure
-
-web-scrapping-/
-├── scraper.py             # Main scraping script
-├── requirements.txt       # Python dependencies
-├── output.csv             # Sample scraped data
-├── README.md              # Project documentation
-
+bash
+Copy
+Edit
+Web-scrapping-/
+├── Book-details-scraped.csv     # Output file containing the scraped data
+├── Books_to_scrape.py           # Python script for scraping
+└── README.md                    # Project documentation
 🚀 Getting Started
-
 1. Clone the Repository
-git clone https://github.com/shahd818/web-scraper.git
-cd web-scraper
-
+git clone https://github.com/shahd818/Web-scrapping-.git
+cd Web-scrapping-
 2. Install Dependencies
-pip install -r requirements.txt
+In your VS Code terminal, run:
+pip install beautifulsoup4 requests pandas
+3. Run the Script
+In the terminal inside VS Code:
+python Books_to_scrape.py
+The script will run and generate a file named Book-details-scraped.csv with the extracted data.
 
-3. Run the Scraper
-python scraper.py
-Scraped data will be saved in output.csv.
+📝 Features
+Scrapes book information from all pages on the site.
 
-⚙️ Configuration
+Handles pagination automatically.
 
-Update the URL and HTML tags in scraper.py based on the website you are scraping.
+Saves results in a structured CSV format.
 
-You can choose the output format: CSV, JSON, or store it in a database.
+Easy to extend for other sites.
 
-🧑‍💻 Author
+⚠️ Disclaimer
+This project is for educational purposes only. Please respect the website's robots.txt file and terms of service. Do not scrape data without permission.
 
-Shahad Albalawi
-
+👩‍💻 Author
+Shahad Albolwi
+GitHub: shahd818
 [LinkedIn](https://www.linkedin.com/in/shahad-hassan-562451297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) | shahadalbolwi@gmail.com
