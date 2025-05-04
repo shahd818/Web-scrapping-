@@ -1,4 +1,5 @@
 🕸️ Web Scraping Project using Python & BeautifulSoup
+
 📌 Overview
 This project is a simple and effective web scraper built using Python and BeautifulSoup. It extracts specific information from a targeted website and presents it in a structured format as CSV or a database.
 
