@@ -38,6 +38,7 @@ Update the URL and HTML tags in scraper.py based on the website you are scraping
 You can choose the output format: CSV, JSON, or store it in a database.
 
 🧑‍💻 Author
+
 Shahad Albalawi
 
 [LinkedIn](https://www.linkedin.com/in/shahad-hassan-562451297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) | shahadalbolwi@gmail.com
