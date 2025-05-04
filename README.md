@@ -1,9 +1,11 @@
 🕸️ Web Scraping Project using Python & BeautifulSoup
 
 📌 Overview
+
 This project is a simple and effective web scraper built using Python and BeautifulSoup. It extracts specific information from a targeted website and presents it in a structured format as CSV or a database.
 
 🧰 Tools & Technologies
+
 Python 3.x
 
 BeautifulSoup (bs4)
@@ -15,6 +17,7 @@ pandas – for data manipulation and export
 lxml or html.parser – parsing engines
 
 📂 Project Structure
+
 web-scraper/
 ├── scraper.py             # Main scraping script
 ├── requirements.txt       # Python dependencies
@@ -22,6 +25,7 @@ web-scraper/
 ├── README.md              # Project documentation
 
 🚀 Getting Started
+
 1. Clone the Repository
 git clone https://github.com/shahd818/web-scraper.git
 cd web-scraper
@@ -34,6 +38,7 @@ python scraper.py
 Scraped data will be saved in output.csv.
 
 ⚙️ Configuration
+
 Update the URL and HTML tags in scraper.py based on the website you are scraping.
 
 You can choose the output format: CSV, JSON, or store it in a database.
