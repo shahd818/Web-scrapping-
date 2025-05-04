@@ -44,10 +44,9 @@ Saves results in a structured CSV format.
 
 Easy to extend for other sites.
 
-⚠️ Disclaimer
-This project is for educational purposes only. Please respect the website's robots.txt file and terms of service. Do not scrape data without permission.
-
 👩‍💻 Author
+
 Shahad Albolwi
+
 GitHub: shahd818
 [LinkedIn](https://www.linkedin.com/in/shahad-hassan-562451297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) | shahadalbolwi@gmail.com
