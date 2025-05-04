@@ -18,7 +18,7 @@ lxml or html.parser – parsing engines
 
 📂 Project Structure
 
-web-scraper/
+web-scrapping-/
 ├── scraper.py             # Main scraping script
 ├── requirements.txt       # Python dependencies
 ├── output.csv             # Sample scraped data
